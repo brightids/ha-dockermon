@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philhawthorne/ha-dockermon.git"
+    "url": "git+https://github.com/brightids/ha-dockermon.git"
   },
   "keywords": [
     "home-assistant",
@@ -19,10 +19,11 @@
   "author": "Phil Hawthorne",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/philhawthorne/ha-dockermon/issues"
+    "url": "https://github.com/brightids/ha-dockermon/issues"
   },
-  "homepage": "https://github.com/philhawthorne/ha-dockermon#readme",
+  "homepage": "https://github.com/brightids/ha-dockermon#readme",
   "dependencies": {
+    "elastic-apm-node": "^6.2.3",
     "body-parser": "^1.18.2",
     "dockerode": "^2.5.3",
     "express": "^4.16.2",
