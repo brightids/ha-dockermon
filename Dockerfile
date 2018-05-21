@@ -1,9 +1,10 @@
-FROM node:9.4.0
+FROM node:10.1.0
 ENV config_dir=/config
 RUN mkdir -p /usr/src/app && mkdir /config
 WORKDIR /usr/src/app
 
 COPY package.json /usr/src/app
+RUN npm install elastic-apm-node --save
 RUN npm install
 
 COPY default_settings.json /usr/src/app
